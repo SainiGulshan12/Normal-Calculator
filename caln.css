@@ -1,0 +1,103 @@
+body{
+    background-color: #424242;
+    font-family:'popins',sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    width: 100%;
+}
+#container{
+    width: 220px;
+    padding: 9px 9px 20px 9px;
+    margin: 22px ;
+    background-color: #ababab;
+    border-radius: 5px;
+    border-top:4px solid #fff ;
+    border-right:4px solid #fff ;
+    border-left: 4px solid #c1c1c1;
+    border-bottom: 4px solid #c1c1c1;
+    box-shadow: -3px 3px 7px rgba(0, 0, 0, .6), inset -100px 0px 100px rgba(255, 255, 255, .5);
+}
+#display{
+    display: block;
+    margin: 13px;
+    height: 42px;
+    width: 190px;
+    padding: 0 7px;
+    border-radius: 5px;
+    border-top: 2px solid #C1C1C1;
+	border-right: 2px solid #C1C1C1;
+    border-bottom: 2px solid #FFF;
+	border-left: 2px solid #FFF;
+    background-color: #fff;
+    box-shadow: inset 0px 0px 10px #030303;
+    font-size: 28px;
+    color: #666;
+    text-align: right;
+    font-weight: 400;
+}
+.button{
+    display: inline-block;
+    margin: 2px;
+    width: 48px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+   
+}
+.digits{
+    color: #181818;
+    text-shadow: 1px 1px 0px #FFF;
+    border-color: #ebebeb;
+    border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #C1C1C1;
+	border-left: 2px solid #C1C1C1;
+    box-shadow: 0px 0px 2px #030303;
+}
+.mathButtons{
+    margin: 2px 2px 6px 2px;
+    color: #fff;
+    text-shadow: -1px -1px 0px #44006f;
+    border-top: 2px solid #C1C1C1;
+	border-right: 2px solid #C1C1C1;
+	border-bottom: 2px solid #181818;
+	border-left: 2px solid #181818;
+
+    background-color: #434343;
+}
+.digits:hover,
+.mathButtons:hover,
+#clearButton:hover{
+    background-color: #ffba75;
+    box-shadow: 0px 0px 2px #FFBA75,inset 0px -20px,1px #FF8000;
+    border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #AE5700;
+	border-left: 2px solid #AE5700;
+}
+#clearButton{
+    color: #fff;
+    background-color: #d20000;
+    text-shadow: -1px -1px 0px #44006F;
+    border-top: 2px solid #FF8484;
+	border-right: 2px solid #FF8484;
+	border-bottom: 2px solid #800000;
+	border-left: 2px solid #800000;
+    box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #B00000;
+}
+
+
+
+/* .mathButtonss { */
+    /* display: grid; */
+    /* grid-template-columns: repeat(4, 1f); */
+  /* } */
+  /* .mathButtonss { */
+    /* grid-column: 4 / 5; Start at column #4 and end at column #5 (the very right edge). */
+    /* grid-row: 2 / span 4; Start at row #2 and span 4 rows */
+  /* } */
